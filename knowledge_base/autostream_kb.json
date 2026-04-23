@@ -1,0 +1,64 @@
+{
+  "company": {
+    "name": "AutoStream",
+    "description": "AutoStream is a SaaS platform providing automated video editing tools for content creators. It uses AI to streamline video production, add captions, and deliver high-quality output at scale.",
+    "tagline": "AI-powered video editing for creators who move fast."
+  },
+  "pricing": {
+    "plans": [
+      {
+        "name": "Basic Plan",
+        "price_monthly": 29,
+        "features": [
+          "10 videos per month",
+          "720p resolution output",
+          "Basic auto-editing tools",
+          "Email support",
+          "Access to template library"
+        ],
+        "best_for": "Individual creators or hobbyists just getting started"
+      },
+      {
+        "name": "Pro Plan",
+        "price_monthly": 79,
+        "features": [
+          "Unlimited videos per month",
+          "4K resolution output",
+          "AI-generated captions",
+          "Advanced editing automation",
+          "Priority 24/7 support",
+          "Custom branding & watermarks",
+          "Analytics dashboard"
+        ],
+        "best_for": "Professional YouTubers, Instagram creators, and agencies"
+      }
+    ]
+  },
+  "policies": {
+    "refund_policy": "No refunds are provided after 7 days from the date of purchase. Refund requests within the first 7 days are reviewed case-by-case.",
+    "support": {
+      "basic": "Email support with 24–48 hour response time",
+      "pro": "24/7 live chat and email support with priority response"
+    },
+    "trial": "No free trial currently available. A 7-day money-back guarantee applies to first-time subscribers.",
+    "cancellation": "You can cancel your subscription at any time. Access continues until the end of the current billing period."
+  },
+  "faqs": [
+    {
+      "question": "What platforms does AutoStream support?",
+      "answer": "AutoStream works for creators on YouTube, Instagram, TikTok, and any platform where you upload video content."
+    },
+    {
+      "question": "Can I upgrade from Basic to Pro?",
+      "answer": "Yes, you can upgrade at any time. You will be billed the prorated difference for the remaining billing cycle."
+    },
+    {
+      "question": "Does AutoStream support team accounts?",
+      "answer": "Team or agency plans are not currently listed but you can contact support for custom pricing."
+    },
+    {
+      "question": "What video formats are supported?",
+      "answer": "AutoStream supports MP4, MOV, AVI, and MKV input formats. Output is always in MP4."
+    }
+  ]
+}
