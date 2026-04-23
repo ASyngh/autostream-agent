@@ -81,15 +81,15 @@ Assistant: Hey! AutoStream has two plans: Basic at $29/month (10 videos, 720p) a
 You: The Pro plan sounds perfect. I want to sign up for my YouTube channel.
 Assistant: Awesome! I would love to get you set up. Could I get your name first?
 
-You: Alex Johnson
-Assistant: Nice to meet you, Alex! What is your email address?
+You: Aditya Singh
+Assistant: Nice to meet you, Aditya! What is your email address?
 
-You: alex@example.com
+You: aditya@example.com
 Assistant: Perfect! And which platform do you primarily create on?
 
 You: YouTube
-[Lead captured: Alex Johnson, alex@example.com, YouTube]
-Assistant: You are all set, Alex! Our team will be in touch shortly. Welcome to AutoStream!
+[Lead captured: Aditya Singh, aditya@example.com, YouTube]
+Assistant: You are all set, Aditya! Our team will be in touch shortly. Welcome to AutoStream!
 ```
 
 ---
