@@ -18,7 +18,7 @@ A conversational AI agent for **AutoStream**, a fictional SaaS video editing pla
 
 ```
 autostream-agent/
-├── agent.py                        # Main agent logic (LangGraph + Claude Haiku)
+├── agent.py                        # Main agent logic (LangGraph + Groq Llama)
 ├── knowledge_base/
 │   └── autostream_kb.json          # Local RAG knowledge base
 ├── requirements.txt
@@ -54,13 +54,13 @@ pip install -r requirements.txt
 
 ```bash
 cp .env.example .env
-# Edit .env and set your ANTHROPIC_API_KEY
+# Edit .env and set your GROQ_API_KEY
 ```
 
 Or export directly:
 
 ```bash
-export ANTHROPIC_API_KEY=sk-ant-...
+export GROQ_API_KEY=gsk_...
 ```
 
 ### 5. Run the agent
@@ -145,7 +145,7 @@ Meta Webhook → FastAPI Handler
 |-------|-----------|
 | Language | Python 3.9+ |
 | Agent Framework | LangGraph 0.2+ |
-| LLM | Claude 3 Haiku (claude-haiku-4-5) |
-| LLM SDK | LangChain Anthropic |
+| LLM | Llama 3.1 8B Instant (via Groq) |
+| LLM SDK | LangChain Groq |
 | Knowledge Base | Local JSON (RAG via prompt injection) |
 | State Management | LangGraph StateGraph + TypedDict |
